@@ -1,5 +1,6 @@
 <template>
   <ul>
+    {{ products }}
     <li v-for="p in products">
       {{ p.title }} - {{ p.price | currency }}
       <br>
